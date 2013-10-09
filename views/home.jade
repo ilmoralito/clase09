@@ -1,0 +1,15 @@
+html
+	head
+		title
+		link(href="stylesheets/style.css", rel="stylesheet")
+	body
+		img(src="images/a.gif")
+		h1 hola #{name}
+		img(src="images/#{image}")
+
+		ol
+			each anime in animes
+				li
+					a(href="#{anime.url}") #{anime.name}
+
+		a(href="/contact") contact us

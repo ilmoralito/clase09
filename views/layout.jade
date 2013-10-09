@@ -1,0 +1,20 @@
+!!! 5
+html
+	head
+		title Mario's blog
+		link(href="stylesheets/style.css", rel="stylesheet")
+	body
+		div.container
+			div.sidebar
+				block sidebar
+					img(src="images/she.jpg")
+					nav.navbar
+						ul
+							li: a(href="/") Home
+							li: a(href="/about") About
+							li: a(href="/contact") Contact
+					div.footer
+						p: strong Mario's blog 2013
+			div.main
+				block content
+	script(src="javascript/app.js")

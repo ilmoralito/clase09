@@ -1,0 +1,9 @@
+extends layout
+
+block content
+	for post in posts
+		h1: a(href="/post/#{post.permalink}") #{post.title}
+		small by 
+			a(href="#") #{post.author} 
+		small the #{post.date}
+		p #{post.body}

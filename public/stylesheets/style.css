@@ -1,0 +1,13 @@
+body {
+	background: white;
+}
+
+h1 {
+	color:orange;
+}
+
+img {
+	width:50%;
+	opacity: .5;
+	border: 5px solid #444;
+}
